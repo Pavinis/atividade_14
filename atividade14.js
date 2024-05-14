@@ -37,6 +37,7 @@ function calcsalario() {
 
 function easterEgg(){
     corset(Math.round(Math.random() * 100),Math.round(Math.random() * 100),Math.round(Math.random() * 100));
+    document.getElementById("p_rgb").innerHTML = cor;
     document.getElementById("body").style.backgroundColor = cor;
     console.log(cor);
 }
