@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 14</title>
+    <link rel="stylesheet" href="atividade14.css">
+</head>
+
+<script src="atividade14.js"></script>
+
+<body>
+    <container>
+        <div class="column">
+            <form method="post" action="#">
+                <div class="row">
+                    <p>1º número:</p><input type="text" id="numA" class="espaco" required></input>
+                </div>
+                <div class="row">
+                    <p>2º número:</p><input type="text" id="numB" class="espaco" required></input>
+                </div>
+                <div class="row">
+                    <button type="button" id="calcNum" class="espaco" onclick="calcNums()">Calcular</button>
+                </div>
+                <div class="rowLeft">
+                    <p>resposta A:</p>
+                    <p id="A"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>resposta B:</p>
+                    <p id="B"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>resposta C:</p>
+                    <p id="C"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>resposta D:</p>
+                    <p id="D"></p>
+                </div>
+            </form>
+            <form method="post" action="#">
+                <div class="row">
+                    <p>nome do funcionário:</p><input type="text" id="nome" class="espaco" required></input>
+                </div>
+                <div class="row">
+                    <p>salário bruto:</p><input type="text" id="bruto" class="espaco" required></input>
+                </div>
+                <div class="row">
+                    <button type="button" id="calcSalario" class="espaco" onclick="calcsalario()">Calcular</button>
+                </div>
+                <div class="rowLeft">
+                    <p>Nome do funcionário:</p>
+                    <p id="p_nome"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>Salário bruto:</p>
+                    <p id="p_bruto"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>Porcentagem INSS:</p>
+                    <p id="p_porcentagem"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>Valor INSS:</p>
+                    <p id="p_inss"></p>
+                </div>
+                <div class="rowLeft">
+                    <p>Salário liquido:</p>
+                    <p id="p_liquido"></p>
+                </div>
+
+            </form>
+        </div>
+    </container>
+</body>
