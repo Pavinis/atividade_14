@@ -32,3 +32,15 @@ function calcsalario() {
     document.getElementById('p_inss').innerHTML = ("R$" + (bruto * porcento));
     document.getElementById('p_liquido').innerHTML = ("R$" + (bruto - (bruto * porcento)));
 }
+
+/*Isso é só um easter egg que muda a cor do fundo */
+
+function easterEgg(){
+    corset(Math.round(Math.random() * 100),Math.round(Math.random() * 100),Math.round(Math.random() * 100));
+    document.getElementById("body").style.backgroundColor = cor;
+    console.log(cor);
+}
+
+function corset(r,g,b) {
+    cor = ("rgb(" + r + ", " + g + ", " + b + ")")
+}
